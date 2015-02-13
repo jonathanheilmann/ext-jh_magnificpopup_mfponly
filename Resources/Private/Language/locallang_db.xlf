@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-12-17T18:18:58Z" product-name="jh_magnificpopup_mfponly">
+		<header/>
+		<body>
+			<trans-unit id="tx_jhmagnificpopupmfponly_domain_model_filereference">
+				<source>File Reference</source>
+			</trans-unit>
+			<trans-unit id="tx_jhmagnificpopupmfponly_domain_model_filereference.jh_magnificpopup_mfponly">
+				<source>Jh Magnificpopup Mfponly</source>
+			</trans-unit>
+			<trans-unit id="sys_file_reference.tx_extbase_type.Tx_JhMagnificpopupMfponly_FileReference">
+				<source>Magnific Popup only FileReference</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

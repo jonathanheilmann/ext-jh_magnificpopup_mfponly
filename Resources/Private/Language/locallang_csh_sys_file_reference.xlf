@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-12-17T18:18:58Z" product-name="jh_magnificpopup_mfponly">
+		<header/>
+		<body>
+			<trans-unit id="jh_magnificpopup_mfponly.description">
+				<source>jhMagnificpopupMfponly</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

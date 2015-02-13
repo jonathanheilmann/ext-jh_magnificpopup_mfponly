@@ -1,0 +1,98 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    30,
+                    102
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": false,
+                    "_default1_show": false,
+                    "_default2_new_create": false,
+                    "_default3_edit_update": false,
+                    "_default4_delete": false,
+                    "customActions": [
+
+                    ]
+                },
+                "name": "FileReference",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": false,
+                    "categorizable": false,
+                    "description": "",
+                    "mapToTable": "sys_file_reference",
+                    "parentClass": "\\Tx_News_Domain_Model_FileReference",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "84128835492"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsRequired": false,
+                            "propertyName": "jhMagnificpopupMfponly",
+                            "propertyType": "Boolean",
+                            "uid": "1015881566646"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": [
+
+                    ]
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [
+
+        ],
+        "description": "Adds a checkbox to display an image only in Magnific Popup lightbox.",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 6.2.0-6.2.99\n",
+            "disableLocalization": false,
+            "disableVersioning": true,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "6.2",
+            "version": "0.0.0"
+        },
+        "extensionKey": "jh_magnificpopup_mfponly",
+        "name": "Magnific Popup only",
+        "originalExtensionKey": "jh_magnificpopup_mfponly",
+        "persons": [
+            {
+                "company": "",
+                "email": "mail@jonathan-heilmann.de",
+                "name": "Jonathan Heilmann",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+
+        ],
+        "vendorName": "Heilmann"
+    },
+    "wires": [
+
+    ],
+    "log": {
+        "last_modified": "2014-12-17 06:18",
+        "extension_builder_version": "6.2.0",
+        "be_user": "Jonathan Heilmann (1)"
+    }
+}

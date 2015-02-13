@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-12-17T18:11:14Z">
+		<header>
+			<generator>LFEditor</generator>
+		</header>
+		<body>
+		<trans-unit id="tx_jhmagnificpopupmfponly_domain_model_filereference" xml:space="preserve">
+			<source>File Reference</source>
+		</trans-unit>
+		<trans-unit id="tx_jhmagnificpopupmfponly_domain_model_filereference.jh_magnificpopup_mfponly" xml:space="preserve">
+			<source>Jh Magnificpopup Mfponly</source>
+		</trans-unit>
+		<trans-unit id="tx_jhmagnificpopupmfponly_tca.jh_magnificpopup_mfponly" xml:space="preserve">
+			<source>Display in Magnific Popup lightbox only</source>
+		</trans-unit>
+		</body>
+	</file>
+</xliff>
