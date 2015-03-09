@@ -25,6 +25,15 @@ ChangeLog
          Changes
 
  - :Version:
+         0.0.2
+
+   :Changes:
+
+         \* Added extension icon
+
+         \* Updated documentation
+
+ - :Version:
          0.0.1
 
    :Changes:
