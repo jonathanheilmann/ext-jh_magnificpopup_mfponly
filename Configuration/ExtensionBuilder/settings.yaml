@@ -45,24 +45,26 @@ overwriteSettings:
       Repository: merge
 
   Configuration:
-    #TCA: merge
+    TCA: merge
     TypoScript: merge
 
   Resources:
     Private:
-      #Language: merge
+      Language: merge
       #Templates: keep
 
   ext_icon.gif: keep
 
-  ext_localconf.php: merge
+  ext_localconf.php: keep
 
   ext_tables.php: keep
 
   ext_tables.sql: merge
+  
+  ext_typoscript_setup.txt: keep
 
 ## use static date attribute in xliff files ##
-#staticDateInXliffFiles: 2014-12-17T17:36:00Z
+staticDateInXliffFiles: 2014-12-17T17:36:00Z
 
 ## list of error codes for warnings that should be ignored ##
 #ignoreWarnings:
