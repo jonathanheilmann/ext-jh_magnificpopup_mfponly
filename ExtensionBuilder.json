@@ -28,7 +28,7 @@
                     "categorizable": false,
                     "description": "",
                     "mapToTable": "sys_file_reference",
-                    "parentClass": "\\Tx_News_Domain_Model_FileReference",
+                    "parentClass": "\\GeorgRinger\\News\\Domain\\Model\\FileReference",
                     "sorting": false,
                     "type": "Entity",
                     "uid": "84128835492"
@@ -63,7 +63,7 @@
         "emConf": {
             "category": "plugin",
             "custom_category": "",
-            "dependsOn": "typo3 => 6.2.0-6.2.99\n",
+            "dependsOn": "typo3 => 6.2.0-6.2.99\nnews => 3.2.0\n",
             "disableLocalization": false,
             "disableVersioning": true,
             "sourceLanguage": "en",

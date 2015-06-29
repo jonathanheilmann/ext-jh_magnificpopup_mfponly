@@ -23,5 +23,5 @@ $additionalSysFileReferenceColumns = array(
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns('sys_file_reference', $additionalSysFileReferenceColumns);
 
-// add special news palette
-$GLOBALS['TCA']['sys_file_reference']['palettes']['newsPalette']['showitem'] .= ',jh_magnificpopup_mfponly';
+// modify special news palette
+$GLOBALS['TCA']['sys_file_reference']['palettes']['newsPalette']['showitem'] .= ', jh_magnificpopup_mfponly';
