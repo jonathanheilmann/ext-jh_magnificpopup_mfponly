@@ -5,7 +5,7 @@ namespace Heilmann\JhMagnificpopupMfponly\Domain\Model;
  *
  *  Copyright notice
  *
- *  (c) 2014 Jonathan Heilmann <mail@jonathan-heilmann.de>
+ *  (c) 2014-2015 Jonathan Heilmann <mail@jonathan-heilmann.de>
  *
  *  All rights reserved
  *
@@ -29,7 +29,7 @@ namespace Heilmann\JhMagnificpopupMfponly\Domain\Model;
 /**
  * FileReference
  */
-class FileReference extends \Tx_News_Domain_Model_FileReference {
+class FileReference extends \GeorgRinger\News\Domain\Model\FileReference {
 
 	/**
 	 * jhMagnificpopupMfponly

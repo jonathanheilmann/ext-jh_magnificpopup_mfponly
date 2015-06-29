@@ -25,6 +25,13 @@ ChangeLog
          Changes
 
  - :Version:
+         0.1.0
+
+   :Changes:
+
+         \* Support for EXT:news version >= 3.2.0
+
+ - :Version:
          0.0.2
 
    :Changes:
