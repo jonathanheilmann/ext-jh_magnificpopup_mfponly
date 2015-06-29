@@ -63,7 +63,7 @@
         "emConf": {
             "category": "plugin",
             "custom_category": "",
-            "dependsOn": "typo3 => 6.2.0-6.2.99\n",
+            "dependsOn": "typo3 => 6.2.0-6.2.99\nnews => 3.0.1-3.1.99",
             "disableLocalization": false,
             "disableVersioning": true,
             "sourceLanguage": "en",
