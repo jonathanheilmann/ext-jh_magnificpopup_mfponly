@@ -31,6 +31,13 @@ ChangeLog
 
          \* Support for EXT:news version >= 3.2.0
 
+ - :Version:
+         0.0.2
+
+   :Changes:
+
+         \* Added dependency of EXT:news
+
          \* Added extension icon
 
          \* Updated documentation
