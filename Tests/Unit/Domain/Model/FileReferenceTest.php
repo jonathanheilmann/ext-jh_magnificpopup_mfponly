@@ -34,40 +34,45 @@ namespace Heilmann\JhMagnificpopupMfponly\Tests\Unit\Domain\Model;
  *
  * @author Jonathan Heilmann <mail@jonathan-heilmann.de>
  */
-class FileReferenceTest extends \TYPO3\CMS\Core\Tests\UnitTestCase {
-	/**
-	 * @var \Heilmann\JhMagnificpopupMfponly\Domain\Model\FileReference
-	 */
-	protected $subject = NULL;
+class FileReferenceTest extends \TYPO3\CMS\Core\Tests\UnitTestCase
+{
+    /**
+     * @var \Heilmann\JhMagnificpopupMfponly\Domain\Model\FileReference
+     */
+    protected $subject = null;
 
-	protected function setUp() {
-		$this->subject = new \Heilmann\JhMagnificpopupMfponly\Domain\Model\FileReference();
-	}
+    protected function setUp()
+    {
+        $this->subject = new \Heilmann\JhMagnificpopupMfponly\Domain\Model\FileReference();
+    }
 
-	protected function tearDown() {
-		unset($this->subject);
-	}
+    protected function tearDown()
+    {
+        unset($this->subject);
+    }
 
-	/**
-	 * @test
-	 */
-	public function getJhMagnificpopupMfponlyReturnsInitialValueForBoolean() {
-		$this->assertSame(
-			FALSE,
-			$this->subject->getJhMagnificpopupMfponly()
-		);
-	}
+    /**
+     * @test
+     */
+    public function getJhMagnificpopupMfponlyReturnsInitialValueForBoolean()
+    {
+        $this->assertSame(
+            false,
+            $this->subject->getJhMagnificpopupMfponly()
+        );
+    }
 
-	/**
-	 * @test
-	 */
-	public function setJhMagnificpopupMfponlyForBooleanSetsJhMagnificpopupMfponly() {
-		$this->subject->setJhMagnificpopupMfponly(TRUE);
+    /**
+     * @test
+     */
+    public function setJhMagnificpopupMfponlyForBooleanSetsJhMagnificpopupMfponly()
+    {
+        $this->subject->setJhMagnificpopupMfponly(true);
 
-		$this->assertAttributeEquals(
-			TRUE,
-			'jhMagnificpopupMfponly',
-			$this->subject
-		);
-	}
+        $this->assertAttributeEquals(
+            true,
+            'jhMagnificpopupMfponly',
+            $this->subject
+        );
+    }
 }
