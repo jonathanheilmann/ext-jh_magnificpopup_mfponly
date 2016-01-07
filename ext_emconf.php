@@ -11,25 +11,25 @@
  ***************************************************************/
 
 $EM_CONF[$_EXTKEY] = array(
-	'title' => 'Magnific Popup only',
-	'description' => 'Adds a checkbox to display an image only in Magnific Popup lightbox.',
-	'category' => 'plugin',
-	'author' => 'Jonathan Heilmann',
-	'author_email' => 'mail@jonathan-heilmann.de',
-	'state' => 'beta',
-	'internal' => '',
-	'uploadfolder' => '0',
-	'createDirs' => '',
-	'clearCacheOnLoad' => 1,
-	'version' => '0.1.0',
-	'constraints' => array(
-		'depends' => array(
-			'typo3' => '6.2.0-7.6.99',
-			'news' => '3.2.0',
-		),
-		'conflicts' => array(
-		),
-		'suggests' => array(
-		),
-	),
+    'title' => 'Magnific Popup only',
+    'description' => 'Adds a checkbox to display an image only in Magnific Popup lightbox.',
+    'category' => 'plugin',
+    'author' => 'Jonathan Heilmann',
+    'author_email' => 'mail@jonathan-heilmann.de',
+    'state' => 'beta',
+    'internal' => '',
+    'uploadfolder' => '0',
+    'createDirs' => '',
+    'clearCacheOnLoad' => 1,
+    'version' => '0.1.0',
+    'constraints' => array(
+        'depends' => array(
+            'typo3' => '6.2.0-7.6.99',
+            'news' => '3.2.0',
+        ),
+        'conflicts' => array(
+        ),
+        'suggests' => array(
+        ),
+    ),
 );

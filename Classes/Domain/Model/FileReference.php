@@ -29,41 +29,44 @@ namespace Heilmann\JhMagnificpopupMfponly\Domain\Model;
 /**
  * FileReference
  */
-class FileReference extends \GeorgRinger\News\Domain\Model\FileReference {
+class FileReference extends \GeorgRinger\News\Domain\Model\FileReference
+{
 
-	/**
-	 * jhMagnificpopupMfponly
-	 *
-	 * @var boolean
-	 */
-	protected $jhMagnificpopupMfponly = FALSE;
+    /**
+     * jhMagnificpopupMfponly
+     *
+     * @var boolean
+     */
+    protected $jhMagnificpopupMfponly = false;
 
-	/**
-	 * Returns the boolean state of jhmagnificpopupmfponly
-	 *
-	 * @return boolean
-	 */
-	public function isJhmagnificpopupmfponly() {
-		return $this->jhmagnificpopupmfponly;
-	}
+    /**
+     * Returns the boolean state of jhmagnificpopupmfponly
+     *
+     * @return boolean
+     */
+    public function isJhmagnificpopupmfponly()
+    {
+        return $this->jhmagnificpopupmfponly;
+    }
 
-	/**
-	 * Returns the jhMagnificpopupMfponly
-	 *
-	 * @return boolean jhMagnificpopupMfponly
-	 */
-	public function getJhMagnificpopupMfponly() {
-		return $this->jhMagnificpopupMfponly;
-	}
+    /**
+     * Returns the jhMagnificpopupMfponly
+     *
+     * @return boolean jhMagnificpopupMfponly
+     */
+    public function getJhMagnificpopupMfponly()
+    {
+        return $this->jhMagnificpopupMfponly;
+    }
 
-	/**
-	 * Sets the jhMagnificpopupMfponly
-	 *
-	 * @param boolean $jhMagnificpopupMfponly
-	 * @return boolean jhMagnificpopupMfponly
-	 */
-	public function setJhMagnificpopupMfponly($jhMagnificpopupMfponly) {
-		$this->jhMagnificpopupMfponly = $jhMagnificpopupMfponly;
-	}
-
+    /**
+     * Sets the jhMagnificpopupMfponly
+     *
+     * @param boolean $jhMagnificpopupMfponly
+     * @return boolean jhMagnificpopupMfponly
+     */
+    public function setJhMagnificpopupMfponly($jhMagnificpopupMfponly)
+    {
+        $this->jhMagnificpopupMfponly = $jhMagnificpopupMfponly;
+    }
 }
